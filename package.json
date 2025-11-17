@@ -3,6 +3,7 @@
   "version": "0.9.5f3",
   "description": "A React Hook to make dealing with file uploading easier.",
   "main": "dist/index.js",
+  "module": "dist/index.esm.js",
   "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsc",
