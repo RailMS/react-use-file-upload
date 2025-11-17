@@ -1,6 +1,6 @@
 {
   "name": "@railms/react-use-file-upload",
-  "version": "0.9.5f4",
+  "version": "0.9.5f5",
   "description": "A React Hook to make dealing with file uploading easier.",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
