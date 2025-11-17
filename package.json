@@ -6,7 +6,9 @@
   "module": "dist/index.esm.js",
   "types": "dist/index.d.ts",
   "scripts": {
-    "build": "tsc",
+  "build:cjs": "tsc --project tsconfig.cjs.json",
+  "build:esm": "tsc --project tsconfig.esm.json",
+  "build": "npm run build:cjs && npm run build:esm && mv dist/esm/index.js dist/index.esm.js",
     "dev": "tsc -w",
     "format": "prettier --write \"src/**/*.(js|ts)\"",
     "lint": "eslint src --ext .js,.ts",
